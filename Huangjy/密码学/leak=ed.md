@@ -29,7 +29,7 @@ def fac_p_q_add_p_q(n,phi):
         p,q = q,p
     return p,q
 def leak_ed(ed,n)
-	k=(e_d - 1) // n + 1
+	k=(ed - 1) // n + 1
 	phi=ed-1//k
     return fac_p_q_add_p_q(n,phi)
 ~~~
